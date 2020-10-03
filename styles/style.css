@@ -13,7 +13,7 @@
 header{
     background-color:#DCDCDC;
     position: relative;
-    width: 1024px;
+    width: 85vw;
 
     
     
@@ -31,7 +31,6 @@ a{
 
 main{
     margin: auto;
-    height: 85vh;
     background-color:	#F5F5F5;
 }
 
@@ -55,7 +54,7 @@ main{
 
 .partners{
 display: flex;
-margin-top: 600px;
+margin-top: 460px;
 }
 
 .img-partner{
@@ -89,7 +88,7 @@ header p{
 
 .about{
     width: 1024px;
-    margin: auto;
+    
 }
 
 .jobs{
@@ -193,6 +192,7 @@ input[type="radio"]{
     color: #FFFFFF;
     background-color: #A9A9A9;
     transition: background-color 0.2s;
+    margin-bottom: 30px;
 }
 
 .container button:hover{
