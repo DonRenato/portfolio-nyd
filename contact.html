@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYD - Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        
+    </div>
+<header>
+    <div class="menu">
+        <img class="logo"src="/img/logo-nyd.png" alt="">
+        
+            <a href="/about.html">
+                <p class="item-menu">About</p>
+            </a>
+
+            <a href="/portfolio.html">
+                <p class="item-menu">Portfolio</p>
+            </a>
+
+            <a href="/contact.html">
+                <p class="item-menu">Contato</p>
+            </a>
+                
+               
+            
+     </div>
+            
+            
+        
+    
+
+    
+</header>
+<main>
+    <div class="content">
+        <div class="container">
+            <form action="#" method="post">
+               <!--propriedades placeholder e maxlength-->
+                <div class="input-block">
+                    <label for="name">Nome: </label>
+                    <input type="text" placeholder="seu nome" maxlength="50" required  />
+                </div>
+                <!--propriedades placeholder e maxlength-->
+                <div class="input-block">
+                    <label for="email">Email: </label>
+                    <input type="email" placeholder="nome@email.com" maxlength="50"  required />
+                </div>
+                <!--propriedades placeholder, pattern e maxlength-->
+                <div class="input-block">
+                    <label for="phone">Telefone: </label>
+                    <input type="tel" placeholder="(00) 00000-0000"
+                    maxlength="15" pattern="\(\d{2}\)\d{5}-\d{4}" required/>
+                </div>         
+                <div class="input-block">
+                    <label for="data">Data Nascimento: </label>
+                    <input type="date"  required/>
+                </div>
+                <div class="input-block-radio">
+                    <label for="opSexo"> Sexo: </label>
+                    <div class="radio-items">
+                        <input type="radio" name="opSexo" value="M" /> Masculino
+                        <input  type="radio" name="opSexo" value="F" /> Feminino
+                        <input type="radio" name="opSexo" value="Outro" /> Outros
+                    </div>      
+                </div>
+    
+                <div class="input-block">
+                    <label for="estCivil"></label>
+                    <select name="estCivil">
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="viúvo">Viúvo</option>
+                        <option value="divorciado">Divorciado</option>
+                    </select>
+                </div>
+                <!--propriedades placeholder e maxlength-->
+                <div class="input-block">
+                    <label for="comentario">Comentário: </label>
+                    <div>
+                        <textarea name="comentario" cols="85" rows="10" 
+                            maxlength="255"placeholder="Deixe seu comentário"></textarea>
+                    </div>
+                    
+                </div>
+                
+               <div class="input-block">
+                    <button type="submit">Enviar</button>     
+               </div>
+    
+               
+                
+                         
+        
+            </form>
+        </div>
+    </div>
+    
+   
+</main>
+<footer>
+    <div class="footer-text">
+        <p id="footer-text">Developed by NYD© 2020 ❤</p>
+    </div>
+   
+</footer>
+</body>
+</html>
