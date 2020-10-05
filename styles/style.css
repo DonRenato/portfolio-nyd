@@ -31,7 +31,7 @@ a{
 
 main{
     margin: auto;
-    background-color:	#F5F5F5;
+    background-color:	#1C1C1C
 }
 
 .menu{
@@ -56,6 +56,12 @@ main{
 display: flex;
 margin-top: 460px;
 }
+
+.slogan{
+   
+    margin-top: 460px;
+padding-bottom: 40px;
+    }
 
 .img-partner{
 justify-content: space-between;
@@ -110,7 +116,7 @@ body,
 input,
 button{
     font: 500 16px Poppins;
-    color: #6A6180
+    color: #DCDCDC
 }
 
 input[type="radio"]{
@@ -175,7 +181,7 @@ input[type="radio"]{
     width: calc(100% - 32px);
     height: 3px;
     content: '';
-    background-color: #DCDCDC;
+    background-color: #696969;
     position: absolute;
     left: 16px;
     right: 16px;
@@ -212,3 +218,28 @@ ul{
     padding: 10px;
 }
 
+.welcome{
+    background-image: url("../img/Internet_Business_Technology_HD_Wallpaper_15_1920x1080.jpg");
+    width: 100vw;
+}  
+
+.subtitle{
+    font-size: 60px;
+    color: #DCDCDC;
+    position: relative;
+    
+}
+
+.title{
+    padding-top: 20px;
+    font-size: 26px;
+    color: #A9A9A9;
+    position: relative;
+    
+}
+
+.welcome-title{
+    color: #DCDCDC;
+    font-size: 60px;
+    
+}

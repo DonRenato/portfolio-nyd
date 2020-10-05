@@ -7,7 +7,7 @@
     <title>NYD - Contato</title>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
@@ -17,18 +17,20 @@
     </div>
     <header>
         <div class="menu">
-            <img class="logo" src="/img/logo-nyd.png" alt="">
+            <a href="/index.html">
+                <img class="logo" src="img/logo-nyd.png" alt="">
+            </a>
 
-            <a href="/about.html">
+            <a href="about.html">
                 <p class="item-menu">About</p>
             </a>
 
-            <a href="/portfolio.html">
+            <a href="portfolio.html">
                 <p class="item-menu">Portfolio</p>
             </a>
 
-            <a href="/contact.html">
-                <p class="item-menu">Contato</p>
+            <a href="contact.html">
+                <p class="item-menu">Contact</p>
             </a>
 
 
@@ -39,17 +41,18 @@
     <main>
         <div class="content">
             <div class="container">
-                <H1>Preencha o formulário e tire suas dúvidas:</H1>
+                <H1>
+                    Preencha o formulário e tire suas dúvidas:</H1>
                 <form action="#" method="post">
                     <!--propriedades placeholder e maxlength-->
                     <div class="input-block">
                         <label for="name">Nome: </label>
-                        <input type="text" placeholder="seu nome" maxlength="50" required />
+                        <input type="text" placeholder="Seu nome" maxlength="50" required />
                     </div>
                     <!--propriedades placeholder e maxlength-->
                     <div class="input-block">
                         <label for="email">Email: </label>
-                        <input type="email" placeholder="nome@email.com" maxlength="50" required />
+                        <input type="email" placeholder="name@email.com" maxlength="50" required />
                     </div>
                     <!--propriedades placeholder, pattern e maxlength-->
                     <div class="input-block">
@@ -58,33 +61,31 @@
                             required />
                     </div>
                     <div class="input-block">
-                        <label for="data">Data Nascimento: </label>
+                        <label for="data">Data de nascimento: </label>
                         <input type="date" required />
                     </div>
                     <div class="input-block-radio">
-                        <label for="opSexo"> Sexo: </label>
+                        <label for=""></label>
                         <div class="radio-items">
-                            <input type="radio" name="opSexo" value="M" /> Masculino
-                            <input type="radio" name="opSexo" value="F" /> Feminino
-                            <input type="radio" name="opSexo" value="Outro" /> Outros
+                            <input type="radio" name="opPerson" value="C" /> PJ
+                            <input type="radio" name="opPerson" value="I" /> Pessoa física
                         </div>
                     </div>
 
                     <div class="input-block">
                         <label for="estCivil"></label>
                         <select name="estCivil">
-                            <option value="casado">Casado</option>
-                            <option value="solteiro">Solteiro</option>
-                            <option value="viúvo">Viúvo</option>
-                            <option value="divorciado">Divorciado</option>
+                            <option value="casado">Masculino</option>
+                            <option value="solteiro">Feminino</option>
+                            <option value="viúvo">Outros</option>
                         </select>
                     </div>
                     <!--propriedades placeholder e maxlength-->
                     <div class="input-block">
-                        <label for="comentario">Comentário: </label>
+                        <label for="comentario">Comentários: </label>
                         <div>
                             <textarea name="comentario" cols="85" rows="10" maxlength="255"
-                                placeholder="Deixe seu comentário"></textarea>
+                                placeholder="Escreva sua mensagem"></textarea>
                         </div>
 
                     </div>
